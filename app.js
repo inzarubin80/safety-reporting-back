@@ -3,7 +3,8 @@ const app = express()
 const port = 3000
 
 
-const hardData = [{ user: 'a', duration: 1, role: user }, { user: 'b', duration: 1, role: admin }];
+const hardData = [{ user: 'a', duration: 1, role: 'user' }, { user: 'b', duration: 1, role: 'admin' }];
+
 
 app.get('/users', function (req, res) {
 
